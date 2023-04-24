@@ -1,0 +1,23 @@
+{
+    "name":"sha256",
+    "fields":{
+       "x":{
+          "label":"String 1",
+          "type":"string",
+          "editable":true,
+          "calculate":null
+       },
+       "y":{
+          "label":"String 2",
+          "type":"string",
+          "editable":true,
+          "calculate":null
+       },
+       "sum":{
+          "label":"Output",
+          "type":"string",
+          "editable":false,
+          "calculate":"sha256()"
+       }
+    }
+ }

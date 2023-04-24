@@ -1,0 +1,29 @@
+{
+    "name":"10numbers",
+    "fields":{
+       "numbers":{
+          "label":"10 Numbers",
+          "type":"string",
+          "editable":true,
+          "calculate":null
+       },
+       "mean":{
+          "label":"Mean",
+          "type":"string",
+          "editable":false,
+          "calculate":"average()"
+       },
+       "median":{
+          "label":"Median",
+          "type":"string",
+          "editable":false,
+          "calculate":"getMedian()"
+       },
+       "standardDeviation":{
+          "label":"Standard deviation",
+          "type":"string",
+          "editable":false,
+          "calculate":"getStandardDeviation()"
+       }
+    }
+ }
